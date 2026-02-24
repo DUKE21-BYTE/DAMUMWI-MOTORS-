@@ -12,7 +12,7 @@ export function CarCard({ car }: CarCardProps) {
   return (
     <Link
       href={`/inventory/${car.id}`}
-      className="group flex flex-col overflow-hidden rounded-xl border border-border bg-card transition-all hover:shadow-lg"
+      className="car-card group flex flex-col border border-border"
     >
       {/* Image */}
       <div className="relative aspect-[16/10] overflow-hidden bg-muted">
